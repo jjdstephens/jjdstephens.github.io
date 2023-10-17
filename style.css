@@ -43,16 +43,50 @@ li a:hover {
 }
 
 
+
+main {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
 .content {
-	margin: auto;
-	width: 50%;
-	border: 0;
+	padding: 20px
 }
 
-.navbar {
-	font-family: ;
+h2 {
+	text-align: center
 }
 
-.hero-image {
-	text-align: center;
+p {
+	font-family: Georgia;
 }
+
+.img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}	
+
+.rapper {
+	display: block;
+	text-align: center
+}
+
+
+@media (min-width:768px) {
+    .rapper {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+	}
+
+.column {
+	margin: 0 auto;
+}
+
+.columntext {
+	text-align: center
+}
+
